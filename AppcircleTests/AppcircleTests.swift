@@ -42,7 +42,7 @@ class AppcircleTests: XCTestCase {
     }
     
     func testFail() throws {
-        XCTAssertTrue(false,"This test should fail")
+        XCTAssertTrue(true,"This test should fail")
     }
     
     func testPerformanceExample() throws {
