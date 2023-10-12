@@ -14,7 +14,7 @@
 		450FAD77277C4BBF00C3060D /* AppcircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD76277C4BBF00C3060D /* AppcircleTests.swift */; };
 		450FAD81277C4BBF00C3060D /* AppcircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD80277C4BBF00C3060D /* AppcircleUITests.swift */; };
 		450FAD83277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450FAD82277C4BBF00C3060D /* AppcircleUITestsLaunchTests.swift */; };
-		96A148242AC711C7009BF7DC /* FizzBuzzKit in Frameworks */ = {isa = PBXBuildFile; productRef = 96A148232AC711C7009BF7DC /* FizzBuzzKit */; };
+		9614D3722AD415AF00A8EF65 /* FizzBuzzKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9614D3712AD415AF00A8EF65 /* FizzBuzzKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A148242AC711C7009BF7DC /* FizzBuzzKit in Frameworks */,
+				9614D3722AD415AF00A8EF65 /* FizzBuzzKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 			);
 			name = Appcircle;
 			packageProductDependencies = (
-				96A148232AC711C7009BF7DC /* FizzBuzzKit */,
+				9614D3712AD415AF00A8EF65 /* FizzBuzzKit */,
 			);
 			productName = Appcircle;
 			productReference = 450FAD62277C4BBC00C3060D /* Appcircle.app */;
@@ -442,6 +442,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +478,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Camera Usage";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location usage";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -611,7 +613,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		96A148232AC711C7009BF7DC /* FizzBuzzKit */ = {
+		9614D3712AD415AF00A8EF65 /* FizzBuzzKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FizzBuzzKit;
 		};
